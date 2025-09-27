@@ -1,0 +1,6 @@
+n = int(input())
+arr = list(map(int, input().split()))
+elem = int(input())
+pos = int(input())
+arr.insert(pos - 1, elem)
+print(*arr)
